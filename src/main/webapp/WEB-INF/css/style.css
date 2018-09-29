@@ -1,0 +1,132 @@
+/* Index configuration */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body.login {
+	background-image: url('../img/BackLogin1.png');
+	background-repeat: no-repeat;
+	background-position: -300px -60px;
+	background-color: #000000;
+	font-family: Snell Roundhand, cursive;
+}
+
+h1 {
+	color: #FFFFFF;
+	margin-top: 5%;
+	margin-left: 13%;
+	font-size: 35px;
+}
+
+table {
+	padding: 2%;
+	background-color: #151515;
+	border-radius: 15px;
+	margin-left: 65%;
+	margin-top: 5%;
+}
+
+td {
+	padding: 5px;
+	text-align: center;
+}
+
+input {
+	outline: none;
+}
+
+input.box {
+	background-color: #F5DA81;
+	font-family: Snell Roundhand, cursive;
+	height: 30px;
+	width: 250px;
+	border-radius: 20px;
+	border: none;
+	padding: 5px;
+	text-indent: 8px;
+	font-size: 15px;
+}
+
+input.submit {
+	background-color: #FF8000;
+	font-family: Snell Roundhand, cursive;
+	height: 40px;
+	width: 100px;
+	border-radius: 20px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input.box::-webkit-input-placeholder {
+	color: #610B0B;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+th {
+	color: #FFFFFF;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	top: 5px;
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FAAC58;
+}
+
+.register {
+	color: #585858;
+}
+
+/* Home Configuration */
+
+body.home {
+	background-color: #000000;
+}
+
+
+ul {
+    list-style-type: none;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	font-family: Snell Roundhand, cursive;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.logout {
+	float: right;
+}
+
+td.radio {
+	font-family: Snell Roundhand, cursive;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+body.reg {
+	background-color: #000000;
+}
