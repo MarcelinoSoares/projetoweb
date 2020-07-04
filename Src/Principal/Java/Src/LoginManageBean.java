@@ -8,7 +8,7 @@ import javax.faces.context.FacesContext;
 import src.User;
 import src.UserDAO;
 
-@ManagedBean(name = "LoginMB")
+@ManagedBean(name= "LoginMB")
 @ViewScoped
 
 public class LoginManageBean {
